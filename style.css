@@ -1,0 +1,10 @@
+.proyectos {
+    background-color: #f2f7f5;
+}
+
+footer {
+    & i {
+        color: white;
+        scale: 2;
+    }
+}
