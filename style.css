@@ -5,6 +5,17 @@
 footer {
     & i {
         color: white;
-        scale: 2;
+        scale: 1.2;
+
+        transition: all 0.5 ease;
+    }
+
+    & img {
+        height: 200px;
+        object-fit: contain;
+    }
+
+    & i:hover {
+        scale: 1.5;
     }
 }

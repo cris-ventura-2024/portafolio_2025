@@ -46,8 +46,9 @@
           <p class="display-6 text-light text-center fw-normal">Mis habilidades</p>
           <p class="lead text-light text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, quasi!</p>
           <div class="container row">
-            <div class="col-lg-4">
-              <div class="card mx-auto m-5" style="width: 18rem;">
+            <div class="col-lg-4 d-flex flex-column">
+              <div class="card mx-auto flex-grow-1 mb-5" style="width: 18rem;">
+                <img class="w-75 d-block mx-auto" src="images/coding-29.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -60,7 +61,8 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card mx-auto m-5" style="width: 18rem;">
+              <div class="card mx-auto mb-5" style="width: 18rem;">
+                <img class="w-75 d-block mx-auto" src="images/entrepreneur-58.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -73,7 +75,8 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card mx-auto m-5" style="width: 18rem;">
+              <div class="card mx-auto" style="width: 18rem;">
+                <img class="w-75 d-block mx-auto" src="images/science-78.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -105,7 +108,7 @@
           </div>
           <div class="row container mx-5 px-5 my-5">
             <div class="col-lg-6 d-flex align-items-center">
-              <img class="w-75 d-block mx-auto" src="images/daniel-shapiro-G9MNjujk8Tg-unsplash.jpg" alt="">
+              <img class="w-75 d-block mx-auto" src="images/tim-mossholder-qjgdslbEn-I-unsplash.jpg" alt="">
             </div>
             <div class="col-lg-6">
                 <h1 class="display-6 fw-bold">Space X</h1>
@@ -115,7 +118,7 @@
           </div>
           <div class="row container mx-5 px-5 my-5">
             <div class="col-lg-6 d-flex align-items-center">
-              <img class="w-75 d-block mx-auto" src="images/daniel-shapiro-G9MNjujk8Tg-unsplash.jpg" alt="">
+              <img class="w-75 d-block mx-auto" src="images/mariia-shalabaieva-fluoEjpdj60-unsplash.jpg" alt="">
             </div>
             <div class="col-lg-6">
                 <h1 class="display-6 fw-bold">Open AI</h1>
@@ -125,10 +128,10 @@
           </div>
           <div class="row container mx-5 px-5">
             <div class="col-lg-6 d-flex align-items-center">
-              <img class="w-75 d-block mx-auto" src="images/daniel-shapiro-G9MNjujk8Tg-unsplash.jpg" alt="">
+              <img class="w-75 d-block mx-auto" src="images/starlink-1.png" alt="">
             </div>
             <div class="col-lg-6">
-                <h1 class="display-6 fw-bold">PayPal</h1>
+                <h1 class="display-6 fw-bold">Starlink</h1>
                 <p class="lead fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, odit numquam quaerat ipsam, minus provident ea dignissimos laboriosam error commodi eum tenetur adipisci ab beatae porro sint autem debitis? Assumenda.</p>
                 <button class="btn btn-outline-dark">CASE STUDY</button>
               </div>
@@ -141,15 +144,40 @@
     <!-- footer -->
     <footer class="container-fluid bg-dark m-0 p-0">
 
-        <h1 class="display-6 text-center text-light">Me puedes encontrar en</h1>
+        <!-- carrousel referencias -->
+        <div class="w-25 mx-auto pt-5">
+          <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="images/2974.webp" class="d-block w-100" alt="...">
+                <h5 class="text-light text-center mt-3">First slide label</h5>
+                <p class="text-light text-center">Some representative placeholder content for the first slide.</p>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/ceo-nvidia-frota-manos-popularidad-chatgpt-2954574.webp" class="d-block w-100" alt="...">
+                <h5 class="text-light text-center mt-3">First slide label</h5>
+                <p class="text-light text-center">Some representative placeholder content for the first slide.</p>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/sam-altman-nuevo-ceo-openai_98.webp" class="d-block w-100" alt="...">
+                <h5 class="text-light text-center mt-3">First slide label</h5>
+                <p class="text-light text-center">Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="mt-5 display-6 text-center text-light fs-4">Me puedes encontrar en</h1>
         <!-- Contacto -->
-        <div class="container d-flex justify-content-evenly w-25">
+        <div class="mt-5 container d-flex justify-content-evenly w-25 pb-5 gap-3">
           <i class="fa-brands fa-linkedin"></i>
           <i class="fa-solid fa-envelope"></i>
           <i class="fa-brands fa-whatsapp"></i>
           <i class="fa-brands fa-twitter"></i>
           <i class="fa-brands fa-facebook"></i>
         </div>
+
+        <p class="lead text-light text-center pb-3 m-0">SENATI Curso de diseño web 2025 - Derechos reservados</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
