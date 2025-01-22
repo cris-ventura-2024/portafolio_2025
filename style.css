@@ -1,5 +1,36 @@
 .proyectos {
     background-color: #f2f7f5;
+    & .img1{
+        animation-name: oscilacion;
+        animation-timing-function: ease;
+        animation-timeline: scroll();
+        animation-fill-mode: both;
+        animation-range: entry 40% contain 55%;;
+    }
+
+    & .img2{
+        animation-name: oscilacion;
+        animation-timing-function: ease;
+        animation-timeline: scroll();
+        animation-fill-mode: both;
+        animation-range: entry 50% contain 65%;;
+    }
+
+    & .img3{
+        animation-name: oscilacion;
+        animation-timing-function: ease;
+        animation-timeline: scroll();
+        animation-fill-mode: both;
+        animation-range: entry 60% contain 75%;;
+    }
+
+    & .img4{
+        animation-name: oscilacion;
+        animation-timing-function: ease;
+        animation-timeline: scroll();
+        animation-fill-mode: both;
+        animation-range: entry 70% contain 85%;;
+    }
 }
 
 footer {
@@ -10,12 +41,30 @@ footer {
         transition: all 0.5 ease;
     }
 
-    & img {
-        height: 200px;
-        object-fit: contain;
-    }
+    
 
     & i:hover {
         scale: 1.5;
+    }& img {
+        height: 200px;
+        object-fit: contain;
     }
 }
+
+@media (width>=992px) {
+    
+    @keyframes oscilacion {
+        from { /*inicio 0%*/
+            transform: translateX(-75px);
+            opacity: 0;
+        }
+
+        to { /*fin 100%*/
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+
+}
+
+
